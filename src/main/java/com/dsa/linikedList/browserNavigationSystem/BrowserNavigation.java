@@ -1,5 +1,7 @@
 package com.dsa.linikedList.browserNavigationSystem;
 
+import java.util.Objects;
+
 public class BrowserNavigation {
     private Node current;
 
@@ -57,5 +59,13 @@ public class BrowserNavigation {
             }
             System.out.println("First page is "+current.getUrl());
         }
+    }
+
+    public void deleteByUrl(String url){
+
+    }
+
+    public void deleteCurrentPage(){
+
     }
 }

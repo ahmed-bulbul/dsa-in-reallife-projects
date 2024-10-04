@@ -16,5 +16,7 @@ public class BnApplication {
         browser.getCurrentPage();
         browser.getLastPage();
         browser.getFirstPage();
+        browser.deleteByUrl("https://example.com");
+        browser.getFirstPage();
     }
 }
