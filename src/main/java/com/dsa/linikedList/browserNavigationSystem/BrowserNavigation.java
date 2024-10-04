@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class BrowserNavigation {
     private Node current;
+    private Node head;
 
     public void visit(String url) {
         Node newNode = new Node(url);
@@ -57,6 +58,7 @@ public class BrowserNavigation {
             while (current.getPrev() !=null){
                 current = current.getPrev();
             }
+            head =current;  // set it to head fo further
             System.out.println("First page is "+current.getUrl());
         }
     }
@@ -66,6 +68,14 @@ public class BrowserNavigation {
     }
 
     public void deleteCurrentPage(){
+
+    }
+
+    public void reverse(){
+
+    }
+
+    public void detectCycle(){
 
     }
 }

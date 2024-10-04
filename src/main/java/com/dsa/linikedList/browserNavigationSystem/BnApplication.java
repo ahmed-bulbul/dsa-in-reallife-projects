@@ -10,12 +10,13 @@ public class BnApplication {
         browser.visit("https://google.com");
         browser.visit("https://stackoverflow.com");
         browser.visit("https://facebook.com");
+        browser.getFirstPage();
 
-        browser.back();
         browser.forward();
+        browser.back();
         browser.getCurrentPage();
         browser.getLastPage();
-        browser.getFirstPage();
+
         browser.deleteByUrl("https://example.com");
         browser.getFirstPage();
     }
