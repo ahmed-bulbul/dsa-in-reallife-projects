@@ -1,3 +1,5 @@
+
+```
 public class LinkedListCycleDetection {
 
     // সাইকেল আছে কি না তা চেক করার জন্য মেথড
@@ -21,3 +23,4 @@ public class LinkedListCycleDetection {
 
         return false; // যদি কোনো পয়েন্টে ধীর ও দ্রুত পয়েন্টার মেলে না, সাইকেল নেই
     }
+```
