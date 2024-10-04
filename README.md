@@ -1,7 +1,8 @@
 
-```
-public class LinkedListCycleDetection {
 
+*** Cycle Detection in Linked List
+
+```
     // সাইকেল আছে কি না তা চেক করার জন্য মেথড
     public static boolean hasCycle(Node head) {
         if (head == null || head.next == null) {
